@@ -1,2 +1,20 @@
 Case Study 1 – Scientific Explanation Evaluation
 
+Input Prompt : Explain black holes in simple terms. 
+
+Model Output : A black hole is a region where gravity has become so strong that nothing, not even light, can escape once it gets too close. They form when massive stars collapse, they come in many sizes, and we detect them by watching the drama they cause in their surroundings (bright glowing gas, ripples in space‑time, and the faint shadow they cast). Though they sound scary, they’re just another, extreme consequence of the way mass bends the fabric of space‑time.
+
+| Metric                     | Score | Justification                                                                                    |
+| -------------------------- | ----- | ------------------------------------------------------------------------------------------------ |
+| **Accuracy**               | 5     | Scientifically correct: collapse, gravity, detection methods all valid                           |
+| **Clarity**                | 4     | Generally clear, but phrases like “ripples in space-time” may be slightly abstract for beginners |
+| **Logical Consistency**    | 5     | Flows well: definition → formation → observation → interpretation                                |
+| **Completeness**           | 5     | Covers definition, formation, detection, and conceptual framing                                  |
+| **Instruction Adherence**  | 4     | Mostly simple, but includes slightly advanced concepts                                           |
+| **Hallucination Risk**     | 5     | No fabricated or misleading claims                                                               |
+| **Reasoning Transparency** | 4     | Explains “what” and “why”, but not step-by-step (acceptable for this task)                       |
+
+
+Analysis : The model provides a well-structured and accurate explanation by combining definition, formation, and observational evidence, showing strong conceptual understanding. However, it slightly exceeds the “simple terms” requirement by using abstract physics concepts that may increase cognitive load for beginners.
+
+Improvement : Simplify abstract terms (“space-time,” “ripples”) and reduce stylistic language, so the explanation better matches a true beginner level.
