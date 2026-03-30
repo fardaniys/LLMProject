@@ -1,0 +1,24 @@
+Case Study 2 – Edge Case Reasoning Failure
+
+Input Prompt : "Can heavier objects fall slower than lighter ones?"
+
+Model Output : "In vacuum: All objects, regardless of how heavy or light they are, accelerate at the same rate g and will hit the ground together if released from the same height at the same time.
+In air (or any fluid): The mass‑to‑area ratio dictates the net fall speed. A heavier object can fall slower than a lighter one if its shape gives it a proportionally larger drag area. Conversely, a heavy, compact object typically falls faster than a lighter, more drag‑prone one.
+So the everyday observation that “the heavy rock hits the ground first while the feather drifts down” is not because the rock is heavy per se, but because the rock presents far less drag relative to its weight. If you give the rock a giant parachute, it will take longer to reach the ground than a feather falling from the same height."
+
+| Metric                     | Score | Justification                                                           |
+| -------------------------- | ----- | ----------------------------------------------------------------------- |
+| **Accuracy**               | 5     | Correct distinction between vacuum and fluid dynamics (drag vs gravity) |
+| **Clarity**                | 4     | Clear overall, but “mass-to-area ratio” may be slightly technical       |
+| **Logical Consistency**    | 5     | Strong conditional reasoning throughout                                 |
+| **Completeness**           | 5     | Covers both theoretical (vacuum) and real-world (air) cases             |
+| **Instruction Adherence**  | 5     | Directly answers the question with nuance                               |
+| **Hallucination Risk**     | 5     | No incorrect or fabricated claims                                       |
+| **Reasoning Transparency** | 5     | Step-by-step explanation is explicit and easy to follow                 |
+
+Analysis : 
+The model demonstrates strong conditional reasoning by correctly distinguishing between vacuum and air resistance, avoiding a common misconception. It also provides a clear causal explanation, showing high reasoning transparency and robustness in handling edge cases.
+
+Improvement : 
+1. Simplify technical phrasing (replace “mass-to-area ratio” with more intuitive language like “how much surface it has compared to its weight”)
+2. Slightly shorten the explanation to improve readability without losing clarity
