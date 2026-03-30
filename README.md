@@ -1,6 +1,9 @@
 # LLMProject
 This portfolio demonstrates advanced capability in evaluating Large Language Models (LLMs) and agent systems using structured, rubric-based methodologies aligned with real-world AI evaluation workflows (e.g., RLHF, benchmarking, and QA pipelines).
 
+**Model**
+I use the LLM model from Ollama (gpt-oss:120b-cloud)
+Each case use same model but a different chat.
 
 **Evaluation Framework**
 
